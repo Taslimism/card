@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-
+import argentina from "/assets/argentina.png";
 const shortForm = {
 	overall: "OVR",
 	pace: "PAC",
@@ -25,7 +25,7 @@ const Card = ({ image, formData }) => {
 						<p>93</p>
 						<p>RW</p>
 						<div className='w-10 h-8'>
-							<img src='./assets/argentina.png'></img>
+							<img src={argentina}></img>
 						</div>
 					</div>
 					<div className='absolute inset-0 opacity-0 transition-all duration-500 group-hover:opacity-80'></div>
